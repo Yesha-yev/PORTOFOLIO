@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skil">Skills</a></li>
+                    <li><a href="#portofolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <div class="header-text">
+                    <p>Computer Science Student</p>
+                    <h1>Hi, I'm <span>Faiz</span><br>Aspiring Developer From Indonesia</h1>
+                    <p>I am currently pursuing a degree in Computer Science with interests in artificial intelligence, web development, and problem-solving. I enjoy transforming complex problems into simple, beautiful, and intuitive solutions through code.</p>
+                </div>
+                <div class="carousel">
+                    <div class="group">
+                        <div class="card"><img src="me.jpg" alt=""></div>
+                        <div class="card"><img src="me1.jpg" alt=""></div>
+                        <div class="card"><img src="me.jpg" alt=""></div>
+                    </div>
+                    <div aria-hidden class="group">
+                        <div class="card"><img src="me1.jpg" alt=""></div>
+                        <div class="card"><img src="me.jpg" alt=""></div>
+                        <div class="card"><img src="me1.jpg" alt=""></div>       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Saya, Faiz Ulfia, adalah mahasiswa Informatika yang berdedikasi dan siap untuk berkontribusi di bidang teknologi. Dengan latar belakang pendidikan di bidang komputer, saya sedang memperdalam pemahaman tentang ilmu komputer dan mengasah keterampilan praktis yang diperlukan untuk berkembang di industri teknologi.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills',event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience',event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education',event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python (Basic), C# (Basic), JavaScript (Basic)</li>
+                            <li><span>Web Technologies</span><br>HTML (Basic), CSS (Basic)</li>
+                            <li><span>Tools & Others</span><br>Canva, PostgreSQL, Oracle Data Modeler, Colab, Trello, Draw.io</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>August 2022- February 2023</span><br>Intern Technician in CV. DD TECH BANYUWANGI</li>
+                            <li><span>July 2024 - July 2024</span><br>Member in Basic Multimedia Training Workshop</li>
+                            <li><span>November 2024 - Now</span><br>Public Relations Staff in ASTANAWIDYA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>SMKN 1 Tegalsari as Computer and Network Technology Student</li>
+                            <li><span>2024</span><br>Universitas Jember as Computer Science Student</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skil">
+        <div class="container">
+            <h1 class="sub-title">Experience</h1>
+            <div class="skill-list">
+                <div>
+                    <h2>Intern Technician in CV. DD TECH BANYUWANGI</h2>
+                    <ul>
+                        <li>Membantu teknisi dalam mendiagnosis dan memperbaiki berbagai masalah komputer dan laptop.</li>
+                        <li>Membongkar dan merakit kembali komponen perangkat keras untuk mengidentifikasi dan memperbaiki kerusakan.</li>
+                        <li>Mengganti dan memasang suku cadang untuk komputer dan laptop, memastikan fungsi yang tepat.</li>
+                        <li>Mendapatkan pengalaman langsung dalam memecahkan masalah dan memelihara sistem komputer.</li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Member in Basic Multimedia Training Workshop</h2>
+                    <ul>
+                        <li>Menyelesaikan pelatihan multimedia dasar selama satu bulan, mendapatkan sertifikat dari Badan Nasional Sertifikasi Profesi (BNSP). Sertifikat berlaku selama 3 tahun, mulai dari 16 Agustus 2024, dan dicetak di Yogyakarta.</li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Public Relations Staff in ASTANAWIDYA</h2>
+                    <ul>
+                        <li>Mengelola komunikasi dan mempromosikan kegiatan UKM Astanawidya kepada pemangku kepentingan internal dan eksternal.</li>
+                        <li>Mengembangkan dan mengoptimalkan konten media sosial untuk meningkatkan keterlibatan dan kesadaran acara.</li>
+                        <li>Menyusun siaran pers, buletin internal, dan promosi acara, meningkatkan visibilitas dan jangkauan.</li>
+                        <li>Membuat konten edukatif untuk ASTALEARN dan DID YOU KNOW, yang mencakup topik bahasa Inggris dan menulis, meningkatkan keterlibatan pembaca.</li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portofolio">
+        <div class="contant">
+            <h1 class="sub-title">Commite</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="me1.jpg">
+                    <div class="layer">
+                        <h3>PPMB FASILKOM 2025 as Public Relations</h3>
+                        <p>PPMB merupakan program orientasi resmi yang diselenggarakan oleh Fakultas Ilmu Komputer Universitas Jember (FASILKOM UNEJ) bagi mahasiswa baru semester 1. Kegiatan ini dirancang sebagai pengenalan lingkungan akademik dan non-akademik di fakultas, serta pembinaan karakter untuk membantu mahasiswa baru beradaptasi dengan dunia perkuliahan.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="toefl.png">
+                    <div class="layer">
+                        <h3>TOEFL 5.0 as Public Relations</h3>
+                        <p>TOEFL Training 5.0 merupakan program pelatihan bahasa Inggris yang diselenggarakan oleh ASTANAWIDYA FASILKOM. Program ini dirancang khusus untuk meningkatkan kemampuan berbahasa Inggris mahasiswa, dengan target pencapaian skor TOEFL minimal 500, yang merupakan persyaratan penting untuk penelitian akademik dan publikasi internasional.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ringon.png">
+                    <div class="layer">
+                        <h3>RING ON 5.0 as Finance</h3>
+                        <p>Ring On 5.0 merupakan program pengembangan karir berupa sesi sharing yang diselenggarakan oleh Fakultas Ilmu Komputer Universitas Jember (FASILKOM UNEJ). Program ini dirancang sebagai wadah bagi mahasiswa untuk mendapatkan wawasan langsung dari praktisi industri dan alumni mengenai perencanaan karir, persiapan menghadapi dunia kerja, serta pengembangan kompetensi yang relevan dengan kebutuhan industri teknologi.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="social-icons">
+                        <p><a href="https://www.linkedin.com/in/faiz-ulfia-sasmita-9b2707325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkedin.png" alt=""></a></p>
+                        <p><a href="https://github.com/Yesha-yev"><img src="github.png" alt=""></a></p>
+                        <p><a href="https://www.instagram.com/iamita.f?igsh=MWo3eTlmaWx0c2xkaA=="><img src="ig.png" alt=""></a></p>
+                    </div>
+                    <a href="CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Faiz Ulfia. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</html>
